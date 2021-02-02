@@ -12,7 +12,7 @@ const assertEqual = function(actual, expected) {
 const tail = function(arr) {
     let tailArr = [];
     for (let x = 1; x < arr.length; x++) {
-        tailArr = arr[x];
+        tailArr.push(arr[x])
     }
     return tailArr;
 };
@@ -20,3 +20,5 @@ const tail = function(arr) {
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words); // no need to capture the return value since we are not checking it
 assertEqual(words.length, 3); // original array should still have 3 elements!
+
+
