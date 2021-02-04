@@ -26,6 +26,7 @@ const middle = function(arr) {
     } 
 
     let index = arr.length / 2;
+    
     if(arr.length % 2 === 0) {
         midArr.push(arr[index - 1], arr[index])
     } else {
