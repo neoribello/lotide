@@ -6,9 +6,9 @@ const tail = require('../tail');
 
 describe("#tail", () => {
   it("original array should still have 3 elements!", () => {
-  const words = ["Hello", "Lighthouse", "Labs"];
-  tail(words);
-  assert.strictEqual(words.length, 3);
+    const words = ["Hello", "Lighthouse", "Labs"];
+    tail(words);
+    assert.strictEqual(words.length, 3);
   });
 });
 

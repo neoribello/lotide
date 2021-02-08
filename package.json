@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@neoribello/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide, similar to Lodash is created for the purpose of education.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/neoribello/lotide/issues"
   },
-  "homepage": "https://github.com/neoribello/lotide#readme"
+  "homepage": "https://github.com/neoribello/lotide#readme",
+  "dependencies": {
+    "my-package": "0.0.0"
+  }
 }
