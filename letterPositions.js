@@ -40,4 +40,4 @@ const letterPositions = function(sentence) {
 };
 
 console.log(letterPositions('hello'));
-assertEqual(letterPositions("hello").o, [4]);
+assertEqual(letterPositions("hello").h, [0]);
